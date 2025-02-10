@@ -1,0 +1,278 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250128_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-28 11:30:03.479013
+Config  : ./dcode.com/private/backups/20250128_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250128_113002-dcode_com-database.sql.gz         1.1MiB
+Backup for Site dcode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250128_173002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-28 17:30:05.487805
+Config  : ./dcode.com/private/backups/20250128_173002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250128_173002-dcode_com-database.sql.gz         1.1MiB
+Backup for Site dcode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-28 17:30:06.400385
+Config  : ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250129_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-29 11:30:03.916080
+Config  : ./dcode.com/private/backups/20250129_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250129_113002-dcode_com-database.sql.gz         1.1MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-29 11:30:04.407909
+Config  : ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250129_173002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-29 17:30:05.317004
+Config  : ./dcode.com/private/backups/20250129_173002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250129_173002-dcode_com-database.sql.gz         1.1MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-29 17:30:05.895653
+Config  : ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250130_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-30 11:30:04.016255
+Config  : ./dcode.com/private/backups/20250130_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250130_113002-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250128_173005-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-30 11:30:04.736529
+Config  : ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250130_173001-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-30 17:30:04.737430
+Config  : ./dcode.com/private/backups/20250130_173001-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250130_173001-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250129_113003-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-30 17:30:05.797717
+Config  : ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250131_113001-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-31 11:30:03.481039
+Config  : ./dcode.com/private/backups/20250131_113001-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250131_113001-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250129_173005-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-31 11:30:04.186361
+Config  : ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250131_173002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-01-31 17:30:04.221726
+Config  : ./dcode.com/private/backups/20250131_173002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250131_173002-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250130_113004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-01-31 17:30:04.954503
+Config  : ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250201_173002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-01 17:30:04.189396
+Config  : ./dcode.com/private/backups/20250201_173002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250201_173002-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250130_173004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250131_113003-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250201_173004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-01 17:30:04.879563
+Config  : ./erp.Syncbricks.com/private/backups/20250201_173004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250201_173004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250203_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-03 11:30:06.235421
+Config  : ./dcode.com/private/backups/20250203_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250203_113002-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250201_173004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250201_173004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250131_173004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-03 11:30:07.885057
+Config  : ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250203_173001-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-03 17:30:03.353958
+Config  : ./dcode.com/private/backups/20250203_173001-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250203_173001-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-03 17:30:03.802420
+Config  : ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250204_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-04 11:30:04.556842
+Config  : ./dcode.com/private/backups/20250204_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250204_113002-dcode_com-database.sql.gz         1.2MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-04 11:30:05.697752
+Config  : ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250204_173002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-04 17:30:04.010101
+Config  : ./dcode.com/private/backups/20250204_173002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250204_173002-dcode_com-database.sql.gz         1.3MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250203_173003-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250203_113006-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-04 17:30:04.448611
+Config  : ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250205_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-05 11:30:03.763911
+Config  : ./dcode.com/private/backups/20250205_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250205_113002-dcode_com-database.sql.gz         1.3MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-site_config_backup.json is recent
+File ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250205_113003-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-05 11:30:04.510906
+Config  : ./erp.Syncbricks.com/private/backups/20250205_113003-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250205_113003-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250206_113003-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-06 11:30:04.869120
+Config  : ./dcode.com/private/backups/20250206_113003-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250206_113003-dcode_com-database.sql.gz         1.3MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250205_113003-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250205_113003-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250204_113004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250204_173004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250206_113004-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-06 11:30:05.456580
+Config  : ./erp.Syncbricks.com/private/backups/20250206_113004-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250206_113004-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250207_173002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-07 17:30:05.483995
+Config  : ./dcode.com/private/backups/20250207_173002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250207_173002-dcode_com-database.sql.gz         1.3MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250206_113004-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250206_113004-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250207_173005-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-07 17:30:07.385924
+Config  : ./erp.Syncbricks.com/private/backups/20250207_173005-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250207_173005-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250210_113002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-10 11:30:03.735138
+Config  : ./dcode.com/private/backups/20250210_113002-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250210_113002-dcode_com-database.sql.gz         1.3MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250207_173005-erp_Syncbricks_com-site_config_backup.json is older than 24 hours
+File ./erp.Syncbricks.com/private/backups/20250207_173005-erp_Syncbricks_com-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250210_113003-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-10 11:30:04.419398
+Config  : ./erp.Syncbricks.com/private/backups/20250210_113003-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250210_113003-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2c311a1c9b931eca --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2c311a1c9b931eca | /usr/bin/gzip >> ./dcode.com/private/backups/20250210_173001-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2025-02-10 17:30:03.464368
+Config  : ./dcode.com/private/backups/20250210_173001-dcode_com-site_config_backup.json 94.0B
+Database: ./dcode.com/private/backups/20250210_173001-dcode_com-database.sql.gz         1.3MiB
+Backup for Site dcode.com has been successfully completed
+File ./erp.Syncbricks.com/private/backups/20250210_113003-erp_Syncbricks_com-database.sql.gz is recent
+File ./erp.Syncbricks.com/private/backups/20250210_113003-erp_Syncbricks_com-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aed1f979e2b729d8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aed1f979e2b729d8 | /usr/bin/gzip >> ./erp.Syncbricks.com/private/backups/20250210_173003-erp_Syncbricks_com-database.sql.gz
+
+Backup Summary for erp.Syncbricks.com at 2025-02-10 17:30:03.919917
+Config  : ./erp.Syncbricks.com/private/backups/20250210_173003-erp_Syncbricks_com-site_config_backup.json 94.0B
+Database: ./erp.Syncbricks.com/private/backups/20250210_173003-erp_Syncbricks_com-database.sql.gz         277.0KiB
+Backup for Site erp.Syncbricks.com has been successfully completed
